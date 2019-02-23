@@ -6,10 +6,52 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.7" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.WebHost" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNet.WebPages" Version="3.2.7" />
+    <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.0" />
+    <PackageReference Include="Microsoft.Net.Http" Version="2.2.29" />
+    <PackageReference Include="Microsoft.jQuery.Unobtrusive.Ajax" Version="3.2.6" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNet.Razor" Version="3.2.7" />
+    <PackageReference Include="Microsoft.jQuery.Unobtrusive.Validation" Version="3.2.11" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.Client" Version="2.4.0" />
+    <PackageReference Include="System.IO" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.5.1" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="4.5.1" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.2" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="System.Runtime" Version="4.3.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Owin" Version="5.2.7" />
+    <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.1" />
+    <PackageReference Include="System.Buffers" Version="4.5.0" />
+    <PackageReference Include="CouchDB.Client" Version="1.0.5" />
+    <PackageReference Include="Serilog.Sinks.CouchDB" Version="1.5.10" />
+    <PackageReference Include="DynamicStore.Providers.CouchDB" Version="0.9.1.1" />
+    <PackageReference Include="SharpRepository.CouchDbRepository" Version="1.5.0.3" />
+    <PackageReference Include="Artplant.CouchDB" Version="0.1.2.6" />
+    <PackageReference Include="CSharp.CouchDB" Version="1.0.0" />
+    <PackageReference Include="MyCouch.AspNet.Identity" Version="0.3.0" />
+    <PackageReference Include="MyCouch" Version="6.0.0" />
+    <PackageReference Include="Cake.ViewCompiler" Version="0.2.0" />
+    <PackageReference Include="MyCouch.Cloudant" Version="4.0.0" />
+    <PackageReference Include="CouchDbConfigurationProvider" Version="2.0.2" />
+    <PackageReference Include="CouchDbProvider" Version="2.0.3" />
+    <PackageReference Include="CouchbaseNetClient" Version="2.7.4" />
+    <PackageReference Include="CouchbaseNetClientMono" Version="1.2.0" />
   </ItemGroup>
 
 </Project>
